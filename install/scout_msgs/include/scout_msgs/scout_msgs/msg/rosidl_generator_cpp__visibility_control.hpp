@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/scout_msgs/rosidl_generator_cpp/scout_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

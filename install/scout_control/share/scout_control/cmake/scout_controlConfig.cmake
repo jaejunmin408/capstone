@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/scout_control/ament_cmake_core/scout_controlConfig.cmake

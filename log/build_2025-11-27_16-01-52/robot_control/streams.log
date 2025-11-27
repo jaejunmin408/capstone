@@ -1,0 +1,19 @@
+[1.499s] Invoking command in '/home/min/Workspace/scout_mini/build/robot_control': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_control/build --no-deps symlink_data
+[1.786s] running develop
+[1.974s] running egg_info
+[1.974s] writing robot_control.egg-info/PKG-INFO
+[1.982s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[1.982s] writing entry points to robot_control.egg-info/entry_points.txt
+[1.983s] writing requirements to robot_control.egg-info/requires.txt
+[1.983s] writing top-level names to robot_control.egg-info/top_level.txt
+[1.984s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[1.985s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[2.283s] running build_ext
+[2.284s] Creating /home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages/robot-control.egg-link (link to .)
+[2.287s] Installing follow_leader script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[2.287s] Installing follower script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[2.288s] Installing move_leader_robot script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[2.289s] 
+[2.290s] Installed /home/min/Workspace/scout_mini/build/robot_control
+[2.290s] running symlink_data
+[2.364s] Invoked command in '/home/min/Workspace/scout_mini/build/robot_control' returned '0': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_control/build --no-deps symlink_data

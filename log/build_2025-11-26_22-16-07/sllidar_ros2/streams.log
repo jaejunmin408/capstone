@@ -1,0 +1,52 @@
+[2.308s] Invoking command in '/home/min/Workspace/scout_mini/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/sllidar_ros2 -- -j8 -l8
+[2.399s] [ 10%] Built target sllidar_client
+[2.407s] [100%] Built target sllidar_node
+[2.432s] Invoked command in '/home/min/Workspace/scout_mini/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/sllidar_ros2 -- -j8 -l8
+[2.434s] Invoking command in '/home/min/Workspace/scout_mini/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/sllidar_ros2
+[2.560s] -- Install configuration: ""
+[2.561s] -- Execute custom install script
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[2.561s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[2.562s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[2.563s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[2.564s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[2.564s] -- Symlinking: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[2.564s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[2.564s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.564s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.564s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[2.564s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[2.564s] -- Up-to-date symlink: /home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.697s] Invoked command in '/home/min/Workspace/scout_mini/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/sllidar_ros2

@@ -1,0 +1,3 @@
+[console_scripts]
+move_two_robots = robot_control.move_two_robots:main
+

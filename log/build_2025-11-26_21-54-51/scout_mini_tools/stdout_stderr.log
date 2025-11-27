@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating scout_mini_tools.egg-info
+writing scout_mini_tools.egg-info/PKG-INFO
+writing dependency_links to scout_mini_tools.egg-info/dependency_links.txt
+writing entry points to scout_mini_tools.egg-info/entry_points.txt
+writing requirements to scout_mini_tools.egg-info/requires.txt
+writing top-level names to scout_mini_tools.egg-info/top_level.txt
+writing manifest file 'scout_mini_tools.egg-info/SOURCES.txt'
+reading manifest file 'scout_mini_tools.egg-info/SOURCES.txt'
+writing manifest file 'scout_mini_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/min/Workspace/scout_mini/install/scout_mini_tools/lib/python3.10/site-packages/scout-mini-tools.egg-link (link to .)
+Installing path_follower script to /home/min/Workspace/scout_mini/install/scout_mini_tools/lib/scout_mini_tools
+Installing waypoint_recorder script to /home/min/Workspace/scout_mini/install/scout_mini_tools/lib/scout_mini_tools
+
+Installed /home/min/Workspace/scout_mini/build/scout_mini_tools
+running symlink_data
+creating /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index
+creating /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index/resource_index
+creating /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index/resource_index/packages
+symbolically linking /home/min/Workspace/scout_mini/build/scout_mini_tools/resource/scout_mini_tools -> /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index/resource_index/packages
+symbolically linking /home/min/Workspace/scout_mini/build/scout_mini_tools/package.xml -> /home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools

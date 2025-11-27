@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/scout_gazebo_sim/launch/scout_mini.launch.py

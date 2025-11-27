@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/realsense2_camera/ament_cmake_environment_hooks/local_setup.bash

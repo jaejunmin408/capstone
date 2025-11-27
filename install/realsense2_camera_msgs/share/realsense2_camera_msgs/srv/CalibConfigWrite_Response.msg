@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/realsense2_camera_msgs/rosidl_cmake/srv/CalibConfigWrite_Response.msg

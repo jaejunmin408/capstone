@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/scout_mini_tools
+scout_mini_tools/__init__.py
+scout_mini_tools/path_follower.py
+scout_mini_tools/scout_waypoint_recorder.py
+scout_mini_tools.egg-info/PKG-INFO
+scout_mini_tools.egg-info/SOURCES.txt
+scout_mini_tools.egg-info/dependency_links.txt
+scout_mini_tools.egg-info/entry_points.txt
+scout_mini_tools.egg-info/requires.txt
+scout_mini_tools.egg-info/top_level.txt
+scout_mini_tools.egg-info/zip-safe

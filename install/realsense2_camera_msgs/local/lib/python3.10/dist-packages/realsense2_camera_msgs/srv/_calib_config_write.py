@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_write.py

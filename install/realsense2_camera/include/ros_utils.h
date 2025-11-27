@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera/include/ros_utils.h

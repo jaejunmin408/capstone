@@ -1,0 +1,4 @@
+[console_scripts]
+path_follower = scout_mini_tools.path_follower:main
+waypoint_recorder = scout_mini_tools.scout_waypoint_recorder:main
+

@@ -1,0 +1,59 @@
+[0.596s] Invoking command in '/home/min/Workspace/scout_mini/build/ugv_sdk': /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/ugv_sdk -- -j8 -l8
+[2.901s] [ 44%] Built target ugv_sdk
+[3.011s] [ 51%] Built target demo_bunker_robot
+[3.031s] [ 58%] Built target demo_scout_robot
+[3.046s] [ 65%] Built target demo_protocol_detector
+[3.066s] [ 72%] Built target demo_ranger_robot
+[3.071s] [ 79%] Built target demo_scout_mini_omni_robot
+[3.087s] [ 86%] Built target demo_hunter_robot
+[3.107s] [ 93%] Built target demo_robot_version
+[3.112s] [100%] Built target demo_tracer_robot
+[3.134s] Invoked command in '/home/min/Workspace/scout_mini/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/ugv_sdk -- -j8 -l8
+[3.142s] Invoking command in '/home/min/Workspace/scout_mini/build/ugv_sdk': /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/ugv_sdk
+[3.153s] -- Install configuration: "Release"
+[3.157s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/libugv_sdk.a
+[3.162s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk
+[3.163s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[3.165s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[3.165s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[3.165s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[3.165s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[3.165s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[3.165s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[3.165s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details
+[3.166s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface
+[3.166s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[3.167s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[3.168s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[3.192s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[3.193s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[3.193s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[3.193s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[3.203s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[3.204s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[3.204s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port
+[3.207s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[3.207s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[3.207s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[3.208s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/utilities
+[3.208s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[3.248s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[3.249s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[3.249s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[3.250s] -- Up-to-date: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[3.299s] Invoked command in '/home/min/Workspace/scout_mini/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/ugv_sdk

@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/slam_launch/launch/static_map.launch.py

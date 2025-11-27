@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/scout_mini_nav2/ament_cmake_core/scout_mini_nav2Config.cmake

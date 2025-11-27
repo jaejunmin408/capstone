@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py

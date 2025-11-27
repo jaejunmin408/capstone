@@ -1,0 +1,22 @@
+[0.486s] Invoking command in '/home/min/Workspace/scout_mini/src/robot_control': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/min/Workspace/scout_mini/build/robot_control/build install --record /home/min/Workspace/scout_mini/build/robot_control/install.log --single-version-externally-managed install_data
+[0.644s] running egg_info
+[0.645s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[0.645s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[0.646s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[0.646s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[0.648s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.648s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.649s] running build
+[0.649s] running build_py
+[0.649s] running install
+[0.650s] running install_lib
+[0.651s] running install_data
+[0.651s] running install_egg_info
+[0.652s] removing '/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.653s] Copying ../../build/robot_control/robot_control.egg-info to /home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+[0.654s] running install_scripts
+[0.673s] Installing follower script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[0.673s] Installing move_leader_robot script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[0.674s] writing list of installed files to '/home/min/Workspace/scout_mini/build/robot_control/install.log'
+[0.696s] Invoked command in '/home/min/Workspace/scout_mini/src/robot_control' returned '0': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/min/Workspace/scout_mini/build/robot_control/build install --record /home/min/Workspace/scout_mini/build/robot_control/install.log --single-version-externally-managed install_data

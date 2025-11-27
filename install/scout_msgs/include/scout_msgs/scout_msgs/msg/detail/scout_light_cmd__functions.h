@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/scout_msgs/rosidl_generator_c/scout_msgs/msg/detail/scout_light_cmd__functions.h

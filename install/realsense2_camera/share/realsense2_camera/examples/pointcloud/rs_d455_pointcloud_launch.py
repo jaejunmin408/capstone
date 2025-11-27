@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py

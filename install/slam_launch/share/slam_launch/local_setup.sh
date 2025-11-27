@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/slam_launch/ament_cmake_environment_hooks/local_setup.sh

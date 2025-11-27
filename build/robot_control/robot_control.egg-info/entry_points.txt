@@ -1,0 +1,5 @@
+[console_scripts]
+follow_leader = robot_control.follow_leader:main
+follower = robot_control.follower:main
+move_leader_robot = robot_control.move_leader_robot:main
+

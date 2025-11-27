@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/sllidar_ros2/launch/view_sllidar_s2_launch.py

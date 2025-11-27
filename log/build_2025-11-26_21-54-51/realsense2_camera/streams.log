@@ -1,0 +1,152 @@
+[0.019s] Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/realsense2_camera
+[0.301s] -- The C compiler identification is GNU 11.4.0
+[0.384s] -- The CXX compiler identification is GNU 11.4.0
+[0.396s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.494s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.622s] -- Detecting CXX compiler ABI info - done
+[0.638s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.638s] -- Detecting CXX compile features
+[0.639s] -- Detecting CXX compile features - done
+[0.640s] -- Create Release Build.
+[0.644s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.856s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.943s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.982s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.035s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.042s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.053s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.463s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.292s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[2.341s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.344s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.443s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.472s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.519s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.530s] -- Looking for pthread.h
+[2.606s] -- Looking for pthread.h - found
+[2.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.687s] -- Found Threads: TRUE  
+[2.813s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.849s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.870s] -- Found realsense2_camera_msgs: 4.56.4 (/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[2.895s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.906s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.924s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.991s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.047s] -- Found OpenCV: /usr (found version "4.5.4") found components: core 
+[3.064s] -- Build for ROS2 Humble
+[3.078s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.090s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.096s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[7.912s] -- rs_device_info:
+[7.912s] -- No device detected. Is it plugged in?
+[7.912s] 
+[8.332s] -- Configuring done
+[8.363s] -- Generating done
+[8.373s] -- Build files have been written to: /home/min/Workspace/scout_mini/build/realsense2_camera
+[8.389s] Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/realsense2_camera
+[8.391s] Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_camera -- -j8 -l8
+[8.455s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.455s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.458s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[8.460s] [ 16%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[8.460s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[8.460s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[8.461s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[8.469s] [ 32%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[9.852s] [ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.067s] [ 36%] Built target gtest_main
+[10.097s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[57.725s] [ 48%] [32m[1mLinking CXX static library libgtest.a[0m
+[57.725s] [ 48%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[62.452s] [ 48%] Built target realsense2_camera_node
+[64.878s] [ 48%] Built target gtest
+[68.497s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[81.676s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[87.678s] [ 60%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[101.304s] [ 64%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/actions.cpp.o[0m
+[108.448s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o[0m
+[112.155s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/align_depth_filter.cpp.o[0m
+[117.119s] [ 76%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/pointcloud_filter.cpp.o[0m
+[125.931s] [ 80%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[131.725s] [ 84%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[138.511s] [ 88%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[147.178s] [ 92%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[180.305s] [ 92%] Built target realsense2_camera
+[180.767s] [ 96%] [32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o[0m
+[187.539s] [100%] [32m[1mLinking CXX executable gtest_template[0m
+[188.249s] [100%] Built target gtest_template
+[188.404s] Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_camera -- -j8 -l8
+[188.407s] Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_camera
+[188.415s] -- Install configuration: "Release"
+[188.416s] -- Execute custom install script
+[188.417s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/config/global_settings.yaml
+[188.427s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[188.438s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/lib/librealsense2_camera.so
+[188.447s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/align_depth_filter.h
+[188.457s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/base_realsense_node.h
+[188.466s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/constants.h
+[188.476s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/dynamic_params.h
+[188.485s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/gl_window.h
+[188.499s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/image_publisher.h
+[188.516s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/named_filter.h
+[188.530s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/pointcloud_filter.h
+[188.545s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/profile_manager.h
+[188.558s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/realsense_node_factory.h
+[188.567s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/ros_node_base.h
+[188.577s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/ros_param_backend.h
+[188.587s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/ros_sensor.h
+[188.596s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/ros_utils.h
+[188.606s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/include/sensor_params.h
+[188.738s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[188.748s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[188.757s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[188.766s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[188.775s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch_sync.py
+[189.941s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md
+[189.952s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py
+[189.964s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/calib_config_example.json
+[189.979s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md
+[189.987s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py
+[189.997s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz
+[190.008s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md
+[190.018s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py
+[190.028s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md
+[190.039s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml
+[190.049s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py
+[190.106s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md
+[190.116s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py
+[190.127s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py
+[190.138s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_infra_launch.py
+[190.148s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py
+[190.158s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz
+[190.167s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz
+[190.177s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[190.187s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[190.196s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[190.206s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[190.215s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[190.226s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[190.234s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[190.244s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[190.254s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[190.263s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[190.273s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[190.283s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[190.295s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.dsv
+[190.306s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[190.317s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[190.328s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[190.341s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[190.350s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[190.360s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[190.370s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[190.379s] -- Symlinking: /home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.xml
+[190.391s] Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Downloads/multiple_robots/install/robot_gazebo:/home/min/Downloads/multiple_robots/install/robot_description:/home/min/Downloads/multiple_robots/install/robot_control LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_camera

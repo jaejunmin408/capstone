@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/build/scout_msgs/ament_cmake_core/scout_msgsConfig-version.cmake

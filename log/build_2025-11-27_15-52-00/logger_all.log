@@ -1,0 +1,948 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72280f440b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72280f566560>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72280f566560>>)
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/min/Workspace/scout_mini'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_gazebo_sim) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_gazebo_sim' with type 'ros.ament_cmake' and name 'scout_gazebo_sim'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_nav2) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_nav2' with type 'ros.ament_cmake' and name 'scout_mini_nav2'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_mini_tools) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_mini_tools' with type 'ros.ament_python' and name 'scout_mini_tools'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_base) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2/scout_base' with type 'ros.ament_cmake' and name 'scout_base'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_description) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2/scout_description' with type 'ros.ament_cmake' and name 'scout_description'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2/scout_msgs) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2/scout_msgs' with type 'ros.ament_cmake' and name 'scout_msgs'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_launch) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_launch' with type 'ros.ament_cmake' and name 'slam_launch'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/min/Workspace/scout_mini/install
+[0.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/robot_control', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/robot_control', 'symlink_install': True, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'scout_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/scout_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/scout_description', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/scout_ros2/scout_description', 'symlink_install': True, 'test_result_base': None}
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'scout_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/scout_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/scout_gazebo_sim', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/scout_gazebo_sim', 'symlink_install': True, 'test_result_base': None}
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/scout_mini_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/scout_mini_nav2', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/scout_mini_nav2', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_mini_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'scout_mini_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/scout_mini_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/scout_mini_tools', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/scout_mini_tools', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'scout_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/scout_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/scout_msgs', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/scout_ros2/scout_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'slam_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'slam_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/slam_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/slam_launch', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/slam_launch', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/sllidar_ros2', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/ugv_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/ugv_sdk', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/ugv_sdk', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/realsense2_camera', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera', 'symlink_install': True, 'test_result_base': None}
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/realsense2_description', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_description', 'symlink_install': True, 'test_result_base': None}
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_target' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'scout_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/Workspace/scout_mini/build/scout_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/Workspace/scout_mini/install/scout_base', 'merge_install': False, 'path': '/home/min/Workspace/scout_mini/src/scout_ros2/scout_base', 'symlink_install': True, 'test_result_base': None}
+[0.366s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.368s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.368s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera_msgs'
+[0.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/scout_ros2/scout_msgs' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/scout_ros2/scout_msgs'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.379s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/min/Workspace/scout_mini/src/ugv_sdk' with build type 'catkin'
+[0.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/ugv_sdk'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/min/Workspace/scout_mini/src/robot_control' with build type 'ament_python'
+[0.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'ament_prefix_path')
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/scout_ros2/scout_description' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/scout_ros2/scout_description'
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/scout_gazebo_sim' with build type 'ament_cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/scout_gazebo_sim'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/scout_mini_nav2' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/scout_mini_nav2'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/min/Workspace/scout_mini/src/scout_mini_tools' with build type 'ament_python'
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_tools', 'ament_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/hook/ament_prefix_path.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/hook/ament_prefix_path.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/hook/ament_prefix_path.sh'
+[0.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_camera_msgs -- -j8 -l8
+[0.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_msgs': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_msgs -- -j8 -l8
+[0.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/ugv_sdk': /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/ugv_sdk -- -j8 -l8
+[0.927s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/min/Workspace/scout_mini/src/robot_control'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_description': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_description -- -j8 -l8
+[0.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_gazebo_sim -- -j8 -l8
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_mini_nav2 -- -j8 -l8
+[1.268s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/min/Workspace/scout_mini/src/scout_mini_tools'
+[1.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/ugv_sdk -- -j8 -l8
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/ugv_sdk': /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/ugv_sdk
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_description -- -j8 -l8
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_description': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_description
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_mini_nav2 -- -j8 -l8
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_mini_nav2
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_gazebo_sim -- -j8 -l8
+[1.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_gazebo_sim
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_camera_msgs -- -j8 -l8
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_camera_msgs
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_msgs -- -j8 -l8
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_msgs': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_msgs
+[1.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'ros_package_path')
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.sh'
+[1.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path')
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.sh'
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path_multiarch')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.dsv'
+[1.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/ugv_sdk
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.sh'
+[1.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sdk)
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/ugv_sdk' for CMake module files
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/ugv_sdk' for CMake config files
+[1.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'cmake_prefix_path')
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.sh'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/ugv_sdk/lib'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/ugv_sdk/bin'
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/ugv_sdk/lib/pkgconfig/ugv_sdk.pc'
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/ugv_sdk/lib/python3.10/site-packages'
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/ugv_sdk/bin'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/package.ps1'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/package.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/package.sh'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/package.bash'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/ugv_sdk/share/ugv_sdk/package.zsh'
+[1.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/ugv_sdk/share/colcon-core/packages/ugv_sdk)
+[1.430s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/slam_launch' with build type 'ament_cmake'
+[1.430s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/slam_launch'
+[1.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_nav2)
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2' for CMake module files
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_mini_nav2
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2' for CMake config files
+[1.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_nav2', 'cmake_prefix_path')
+[1.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/hook/cmake_prefix_path.ps1'
+[1.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/hook/cmake_prefix_path.dsv'
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/hook/cmake_prefix_path.sh'
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/bin'
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/lib/pkgconfig/scout_mini_nav2.pc'
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/lib/python3.10/site-packages'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/bin'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.sh'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.bash'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.zsh'
+[1.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/colcon-core/packages/scout_mini_nav2)
+[1.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_nav2)
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2' for CMake module files
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2' for CMake config files
+[1.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_nav2', 'cmake_prefix_path')
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/hook/cmake_prefix_path.ps1'
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/hook/cmake_prefix_path.dsv'
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/hook/cmake_prefix_path.sh'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/bin'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/lib/pkgconfig/scout_mini_nav2.pc'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/lib/python3.10/site-packages'
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_nav2/bin'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.dsv'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.sh'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.bash'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.zsh'
+[1.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_mini_nav2/share/colcon-core/packages/scout_mini_nav2)
+[1.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description' for CMake module files
+[1.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_description
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description' for CMake config files
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/bin'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/lib/pkgconfig/scout_description.pc'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/lib/python3.10/site-packages'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/bin'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.sh'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.bash'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.zsh'
+[1.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_description/share/colcon-core/packages/scout_description)
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description' for CMake module files
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description' for CMake config files
+[1.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/bin'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/lib/pkgconfig/scout_description.pc'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/lib/python3.10/site-packages'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_description/bin'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.dsv'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.sh'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.bash'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.zsh'
+[1.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_description/share/colcon-core/packages/scout_description)
+[1.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/sllidar_ros2' with build type 'ament_cmake'
+[1.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/sllidar_ros2'
+[1.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_gazebo_sim)
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim' for CMake module files
+[1.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_gazebo_sim
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim' for CMake config files
+[1.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_gazebo_sim', 'cmake_prefix_path')
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/bin'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/lib/pkgconfig/scout_gazebo_sim.pc'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/lib/python3.10/site-packages'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/bin'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.sh'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.bash'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.zsh'
+[1.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/colcon-core/packages/scout_gazebo_sim)
+[1.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_gazebo_sim)
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim' for CMake module files
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim' for CMake config files
+[1.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_gazebo_sim', 'cmake_prefix_path')
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.sh'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/bin'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/lib/pkgconfig/scout_gazebo_sim.pc'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/lib/python3.10/site-packages'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/bin'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.ps1'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.sh'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.bash'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.zsh'
+[1.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/colcon-core/packages/scout_gazebo_sim)
+[1.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs' for CMake module files
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_camera_msgs
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs' for CMake config files
+[1.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib'
+[1.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/bin'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/bin'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs' for CMake module files
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs' for CMake config files
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib'
+[1.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/bin'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/bin'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_msgs)
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs' for CMake module files
+[1.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_msgs
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs' for CMake config files
+[1.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'cmake_prefix_path')
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.sh'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/lib'
+[1.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'ld_library_path_lib')
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.sh'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/bin'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/lib/pkgconfig/scout_msgs.pc'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/lib/python3.10/site-packages'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/bin'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.sh'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.bash'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.zsh'
+[1.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_msgs/share/colcon-core/packages/scout_msgs)
+[1.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_msgs)
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs' for CMake module files
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs' for CMake config files
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'cmake_prefix_path')
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/lib'
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'ld_library_path_lib')
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.ps1'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.sh'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/bin'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/lib/pkgconfig/scout_msgs.pc'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/lib/python3.10/site-packages'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_msgs/bin'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.ps1'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.dsv'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.sh'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.bash'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_msgs/share/scout_msgs/package.zsh'
+[1.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_msgs/share/colcon-core/packages/scout_msgs)
+[1.548s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[1.548s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_camera'
+[1.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/slam_launch': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/slam_launch -- -j8 -l8
+[1.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[1.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_description'
+[1.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.562s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/Workspace/scout_mini/src/scout_ros2/scout_base' with build type 'ament_cmake'
+[1.562s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/Workspace/scout_mini/src/scout_ros2/scout_base'
+[1.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/sllidar_ros2 -- -j8 -l8
+[1.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_camera -- -j8 -l8
+[1.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_description': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_description -- -j8 -l8
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_base': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_base -- -j8 -l8
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/slam_launch -- -j8 -l8
+[1.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/slam_launch': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/slam_launch
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_description -- -j8 -l8
+[1.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_launch)
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch' for CMake module files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch' for CMake config files
+[1.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_launch', 'cmake_prefix_path')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/hook/cmake_prefix_path.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/hook/cmake_prefix_path.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/hook/cmake_prefix_path.sh'
+[1.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_description': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_description
+[1.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/slam_launch
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/bin'
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/lib/pkgconfig/slam_launch.pc'
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/lib/python3.10/site-packages'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/bin'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.sh'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.bash'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.zsh'
+[1.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/slam_launch/share/colcon-core/packages/slam_launch)
+[1.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_launch)
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch' for CMake module files
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch' for CMake config files
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_launch', 'cmake_prefix_path')
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/hook/cmake_prefix_path.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/hook/cmake_prefix_path.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/hook/cmake_prefix_path.sh'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/bin'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/lib/pkgconfig/slam_launch.pc'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/lib/python3.10/site-packages'
+[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/slam_launch/bin'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.ps1'
+[1.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.dsv'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.sh'
+[1.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.bash'
+[1.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.zsh'
+[1.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/slam_launch/share/colcon-core/packages/slam_launch)
+[1.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description' for CMake module files
+[1.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_description
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description' for CMake config files
+[1.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[1.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[1.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[1.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/bin'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/lib/python3.10/site-packages'
+[1.712s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/bin'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.ps1'
+[1.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.dsv'
+[1.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.sh'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.bash'
+[1.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.zsh'
+[1.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[1.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description' for CMake module files
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description' for CMake config files
+[1.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/bin'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[1.724s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/lib/python3.10/site-packages'
+[1.724s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_description/bin'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.ps1'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.dsv'
+[1.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.sh'
+[1.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.bash'
+[1.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_description/share/realsense2_description/package.zsh'
+[1.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[1.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/sllidar_ros2 -- -j8 -l8
+[1.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/sllidar_ros2
+[1.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_base -- -j8 -l8
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_base': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_base
+[1.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/realsense2_camera -- -j8 -l8
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_camera
+[1.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_base)
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base' for CMake module files
+[1.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_base
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base' for CMake config files
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_base', 'cmake_prefix_path')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/hook/cmake_prefix_path.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/hook/cmake_prefix_path.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/hook/cmake_prefix_path.sh'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/lib'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/lib/pkgconfig/scout_base.pc'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/lib/python3.10/site-packages'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/bin'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.ps1'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.dsv'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.sh'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.bash'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.zsh'
+[1.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_base/share/colcon-core/packages/scout_base)
+[1.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_base)
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base' for CMake module files
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base' for CMake config files
+[1.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_base', 'cmake_prefix_path')
+[1.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/hook/cmake_prefix_path.ps1'
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/hook/cmake_prefix_path.dsv'
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/hook/cmake_prefix_path.sh'
+[1.802s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/lib'
+[1.802s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/bin'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/lib/pkgconfig/scout_base.pc'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/lib/python3.10/site-packages'
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_base/bin'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.ps1'
+[1.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.dsv'
+[1.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.sh'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.bash'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_base/share/scout_base/package.zsh'
+[1.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_base/share/colcon-core/packages/scout_base)
+[1.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2' for CMake module files
+[1.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera:/home/min/Workspace/scout_mini/install/realsense2_camera_msgs /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/sllidar_ros2
+[1.813s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2' for CMake config files
+[1.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/lib'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/bin'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/bin'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2' for CMake module files
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2' for CMake config files
+[1.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/lib'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/bin'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.824s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/sllidar_ros2/bin'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera' for CMake module files
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs:/home/min/Workspace/scout_mini/install/scout_base:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble:/home/min/Workspace/scout_mini/install/ugv_sdk:/home/min/Workspace/scout_mini/install/sllidar_ros2:/home/min/Workspace/scout_mini/install/slam_launch:/home/min/Workspace/scout_mini/install/scout_msgs:/home/min/Workspace/scout_mini/install/scout_mini_nav2:/home/min/Workspace/scout_mini/install/scout_gazebo_sim:/home/min/Workspace/scout_mini/install/scout_description:/home/min/Workspace/scout_mini/install/scout_control:/home/min/Workspace/scout_mini/install/realsense2_description:/home/min/Workspace/scout_mini/install/realsense2_camera LD_LIBRARY_PATH=/home/min/Workspace/scout_mini/install/realsense2_camera_msgs/lib:/home/min/Workspace/scout_mini/install/scout_msgs/lib:/home/min/Workspace/scout_mini/install/realsense2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/realsense2_camera
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera' for CMake config files
+[1.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/lib'
+[1.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/bin'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/lib/python3.10/site-packages'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/bin'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.sh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.bash'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[1.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[1.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera' for CMake module files
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera' for CMake config files
+[1.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[1.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/lib'
+[1.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/bin'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/lib/python3.10/site-packages'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/realsense2_camera/bin'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.sh'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.bash'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[1.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[1.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/robot_control': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_control/build --no-deps symlink_data
+[1.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/Workspace/scout_mini/build/scout_mini_tools': PYTHONPATH=/home/min/Workspace/scout_mini/build/scout_mini_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/scout_mini_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/scout_mini_tools/build --no-deps symlink_data
+[2.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath_develop')
+[2.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/robot_control' returned '0': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_control/build --no-deps symlink_data
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/build/robot_control/share/robot_control/hook/pythonpath_develop.ps1'
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/build/robot_control/share/robot_control/hook/pythonpath_develop.dsv'
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/build/robot_control/share/robot_control/hook/pythonpath_develop.sh'
+[2.330s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/robot_control' for CMake module files
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/robot_control' for CMake config files
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/robot_control/lib'
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/robot_control/bin'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/robot_control/lib/pkgconfig/robot_control.pc'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages'
+[2.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath')
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/robot_control/bin'
+[2.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[2.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/package.ps1'
+[2.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/package.dsv'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/package.sh'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/package.bash'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/robot_control/share/robot_control/package.zsh'
+[2.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/robot_control/share/colcon-core/packages/robot_control)
+[2.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_tools', 'pythonpath_develop')
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/build/scout_mini_tools/share/scout_mini_tools/hook/pythonpath_develop.ps1'
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/Workspace/scout_mini/build/scout_mini_tools' returned '0': PYTHONPATH=/home/min/Workspace/scout_mini/build/scout_mini_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/scout_mini_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/scout_mini_tools/build --no-deps symlink_data
+[2.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/build/scout_mini_tools/share/scout_mini_tools/hook/pythonpath_develop.dsv'
+[2.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/build/scout_mini_tools/share/scout_mini_tools/hook/pythonpath_develop.sh'
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_tools' for CMake module files
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_tools' for CMake config files
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_tools/lib'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_tools/bin'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_tools/lib/pkgconfig/scout_mini_tools.pc'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_tools/lib/python3.10/site-packages'
+[2.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_mini_tools', 'pythonpath')
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/hook/pythonpath.ps1'
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/hook/pythonpath.dsv'
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/hook/pythonpath.sh'
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/min/Workspace/scout_mini/install/scout_mini_tools/bin'
+[2.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_mini_tools)
+[2.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/package.ps1'
+[2.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/package.dsv'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/package.sh'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/package.bash'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools/package.zsh'
+[2.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/Workspace/scout_mini/install/scout_mini_tools/share/colcon-core/packages/scout_mini_tools)
+[2.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.371s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.377s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.388s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/Workspace/scout_mini/install/local_setup.ps1'
+[2.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/min/Workspace/scout_mini/install/_local_setup_util_ps1.py'
+[2.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/Workspace/scout_mini/install/setup.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/Workspace/scout_mini/install/local_setup.sh'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/min/Workspace/scout_mini/install/_local_setup_util_sh.py'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/Workspace/scout_mini/install/setup.sh'
+[2.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/Workspace/scout_mini/install/local_setup.bash'
+[2.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/Workspace/scout_mini/install/setup.bash'
+[2.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/Workspace/scout_mini/install/local_setup.zsh'
+[2.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/Workspace/scout_mini/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/scout_mini_tools/setup.py

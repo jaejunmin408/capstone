@@ -1,0 +1,1 @@
+/home/min/Workspace/scout_mini/src/realsense-ros/realsense2_description/launch/launch_utils.py
