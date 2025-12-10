@@ -1,0 +1,13 @@
+plugin.xml
+setup.cfg
+setup.py
+./rqt_fleet_view/__init__.py
+./rqt_fleet_view/fleet_view.py
+resource/FleetView.ui
+rqt_fleet_view.egg-info/PKG-INFO
+rqt_fleet_view.egg-info/SOURCES.txt
+rqt_fleet_view.egg-info/dependency_links.txt
+rqt_fleet_view.egg-info/entry_points.txt
+rqt_fleet_view.egg-info/requires.txt
+rqt_fleet_view.egg-info/top_level.txt
+rqt_fleet_view.egg-info/zip-safe

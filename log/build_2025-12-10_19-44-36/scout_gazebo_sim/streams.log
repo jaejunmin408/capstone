@@ -1,0 +1,52 @@
+[1.147s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/scout_gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/scout_gazebo_sim
+[1.297s] -- The C compiler identification is GNU 11.4.0
+[1.631s] -- The CXX compiler identification is GNU 11.4.0
+[1.668s] -- Detecting C compiler ABI info
+[1.902s] -- Detecting C compiler ABI info - done
+[1.936s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.936s] -- Detecting C compile features
+[1.937s] -- Detecting C compile features - done
+[1.942s] -- Detecting CXX compiler ABI info
+[2.286s] -- Detecting CXX compiler ABI info - done
+[2.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.328s] -- Detecting CXX compile features
+[2.328s] -- Detecting CXX compile features - done
+[2.339s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.148s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.544s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.748s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.172s] -- Configuring done
+[4.184s] -- Generating done
+[4.195s] -- Build files have been written to: /home/min/Workspace/scout_mini/build/scout_gazebo_sim
+[4.211s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/scout_gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/scout_gazebo_sim
+[4.211s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_gazebo_sim -- -j8 -l8
+[4.774s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_gazebo_sim -- -j8 -l8
+[4.774s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_gazebo_sim
+[5.200s] -- Install configuration: ""
+[5.200s] -- Execute custom install script
+[5.200s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/frames_2025-11-30_03.32.33.gv
+[5.200s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/frames_2025-11-30_03.32.33.pdf
+[5.200s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini.launch.py
+[5.201s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_empty_world.launch.py
+[5.201s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_multi_spawn.launch.py
+[5.201s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_robot1_world.launch.py
+[5.201s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_robot2_world.launch.py
+[5.201s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_spawn.launch.py
+[5.201s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/worlds/clearpath_playpen.world
+[5.201s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/worlds/weston_robot_empty.world
+[5.202s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/scout_gazebo_sim
+[5.202s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/scout_gazebo_sim
+[5.202s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/ament_prefix_path.sh
+[5.212s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/ament_prefix_path.dsv
+[5.240s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/path.sh
+[5.275s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/environment/path.dsv
+[5.309s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.bash
+[5.338s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.sh
+[5.368s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.zsh
+[5.401s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/local_setup.dsv
+[5.432s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv
+[5.464s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/ament_index/resource_index/packages/scout_gazebo_sim
+[5.490s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/cmake/scout_gazebo_simConfig.cmake
+[5.521s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/cmake/scout_gazebo_simConfig-version.cmake
+[5.550s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/package.xml
+[6.181s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_gazebo_sim

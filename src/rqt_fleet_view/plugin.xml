@@ -1,0 +1,18 @@
+<library path="rqt_fleet_view">
+  <class name="FleetViewPlugin"
+         type="rqt_fleet_view.fleet_view.FleetViewPlugin"
+         base_class_type="rqt_gui_py::Plugin">
+
+    <!-- rqt 메뉴에 표시될 이름 -->
+    <label>Fleet View</label>
+
+    <!-- 아이콘 (시스템 테마 아이콘 아무거나) -->
+    <icon type="theme">system-run</icon>
+
+    <!-- 마우스 올렸을 때 뜨는 설명 -->
+    <statustip>2D visualization of leader/follower odometry</statustip>
+
+    <description>Fleet View 2D Plugin</description>
+  </class>
+</library>
+

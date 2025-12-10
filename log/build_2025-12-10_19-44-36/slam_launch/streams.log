@@ -1,0 +1,47 @@
+[0.137s] Invoking command in '/home/min/Workspace/scout_mini/build/slam_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/slam_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/slam_launch
+[0.442s] -- The C compiler identification is GNU 11.4.0
+[0.650s] -- The CXX compiler identification is GNU 11.4.0
+[0.678s] -- Detecting C compiler ABI info
+[0.942s] -- Detecting C compiler ABI info - done
+[0.977s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.978s] -- Detecting C compile features
+[0.988s] -- Detecting C compile features - done
+[0.993s] -- Detecting CXX compiler ABI info
+[1.323s] -- Detecting CXX compiler ABI info - done
+[1.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.364s] -- Detecting CXX compile features
+[1.364s] -- Detecting CXX compile features - done
+[1.381s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.041s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.219s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.378s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.719s] -- Configuring done
+[2.726s] -- Generating done
+[2.736s] -- Build files have been written to: /home/min/Workspace/scout_mini/build/slam_launch
+[2.754s] Invoked command in '/home/min/Workspace/scout_mini/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/slam_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/slam_launch
+[2.755s] Invoking command in '/home/min/Workspace/scout_mini/build/slam_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/slam_launch -- -j8 -l8
+[2.841s] Invoked command in '/home/min/Workspace/scout_mini/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/slam_launch -- -j8 -l8
+[2.842s] Invoking command in '/home/min/Workspace/scout_mini/build/slam_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/slam_launch
+[2.874s] -- Install configuration: ""
+[2.877s] -- Execute custom install script
+[2.877s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/ament_index/resource_index/package_run_dependencies/slam_launch
+[2.899s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/ament_index/resource_index/parent_prefix_path/slam_launch
+[2.930s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/environment/ament_prefix_path.sh
+[2.960s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/environment/ament_prefix_path.dsv
+[2.989s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/environment/path.sh
+[3.018s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/environment/path.dsv
+[3.048s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/local_setup.bash
+[3.081s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/local_setup.sh
+[3.111s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/local_setup.zsh
+[3.140s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/local_setup.dsv
+[3.169s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.dsv
+[3.197s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/ament_index/resource_index/packages/slam_launch
+[3.214s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/cmake/slam_launchConfig.cmake
+[3.252s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/cmake/slam_launchConfig-version.cmake
+[3.276s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch/package.xml
+[3.337s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch//launch/localization.launch.py
+[3.359s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch//launch/slam_online.launch.py
+[3.392s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch//launch/static_map.launch.py
+[3.434s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch//config/mapper_params_localization.yaml
+[3.465s] -- Symlinking: /home/min/Workspace/scout_mini/install/slam_launch/share/slam_launch//config/mapper_params_online_async.yaml
+[3.497s] Invoked command in '/home/min/Workspace/scout_mini/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/rqt_fleet_view:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/slam_launch

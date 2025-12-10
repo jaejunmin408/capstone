@@ -1,0 +1,19 @@
+running develop
+running egg_info
+creating rqt_fleet_view.egg-info
+writing rqt_fleet_view.egg-info/PKG-INFO
+writing dependency_links to rqt_fleet_view.egg-info/dependency_links.txt
+writing entry points to rqt_fleet_view.egg-info/entry_points.txt
+writing requirements to rqt_fleet_view.egg-info/requires.txt
+writing top-level names to rqt_fleet_view.egg-info/top_level.txt
+writing manifest file 'rqt_fleet_view.egg-info/SOURCES.txt'
+reading manifest file 'rqt_fleet_view.egg-info/SOURCES.txt'
+writing manifest file 'rqt_fleet_view.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/min/Workspace/scout_mini/install/rqt_fleet_view/lib/python3.10/site-packages/rqt-fleet-view.egg-link (link to .)
+
+Installed /home/min/Workspace/scout_mini/build/rqt_fleet_view
+running symlink_data
+symbolically linking /home/min/Workspace/scout_mini/build/rqt_fleet_view/plugin.xml -> /home/min/Workspace/scout_mini/install/rqt_fleet_view/share/rqt_fleet_view
+creating /home/min/Workspace/scout_mini/install/rqt_fleet_view/share/rqt_fleet_view/resource
+symbolically linking /home/min/Workspace/scout_mini/build/rqt_fleet_view/resource/FleetView.ui -> /home/min/Workspace/scout_mini/install/rqt_fleet_view/share/rqt_fleet_view/resource
