@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating robot_following.egg-info
+writing robot_following.egg-info/PKG-INFO
+writing dependency_links to robot_following.egg-info/dependency_links.txt
+writing entry points to robot_following.egg-info/entry_points.txt
+writing requirements to robot_following.egg-info/requires.txt
+writing top-level names to robot_following.egg-info/top_level.txt
+writing manifest file 'robot_following.egg-info/SOURCES.txt'
+reading manifest file 'robot_following.egg-info/SOURCES.txt'
+writing manifest file 'robot_following.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/min/Workspace/scout_mini/install/robot_following/lib/python3.10/site-packages/robot-following.egg-link (link to .)
+Installing tf_path_follower script to /home/min/Workspace/scout_mini/install/robot_following/lib/robot_following
+
+Installed /home/min/Workspace/scout_mini/build/robot_following
+running symlink_data
+creating /home/min/Workspace/scout_mini/install/robot_following/share/ament_index
+creating /home/min/Workspace/scout_mini/install/robot_following/share/ament_index/resource_index
+creating /home/min/Workspace/scout_mini/install/robot_following/share/ament_index/resource_index/packages
+symbolically linking /home/min/Workspace/scout_mini/build/robot_following/resource/robot_following -> /home/min/Workspace/scout_mini/install/robot_following/share/ament_index/resource_index/packages
+symbolically linking /home/min/Workspace/scout_mini/build/robot_following/package.xml -> /home/min/Workspace/scout_mini/install/robot_following/share/robot_following

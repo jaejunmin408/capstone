@@ -1,0 +1,50 @@
+[0.728s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/scout_mini_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/scout_mini_nav2
+[2.640s] -- The C compiler identification is GNU 11.4.0
+[3.504s] -- The CXX compiler identification is GNU 11.4.0
+[3.557s] -- Detecting C compiler ABI info
+[3.853s] -- Detecting C compiler ABI info - done
+[3.879s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.880s] -- Detecting C compile features
+[3.895s] -- Detecting C compile features - done
+[4.012s] -- Detecting CXX compiler ABI info
+[4.229s] -- Detecting CXX compiler ABI info - done
+[4.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.243s] -- Detecting CXX compile features
+[4.244s] -- Detecting CXX compile features - done
+[4.411s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.884s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.997s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.219s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.598s] -- Configuring done
+[5.620s] -- Generating done
+[5.629s] -- Build files have been written to: /home/min/Workspace/scout_mini/build/scout_mini_nav2
+[6.072s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/scout_mini_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/scout_mini_nav2
+[6.077s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_mini_nav2 -- -j8 -l8
+[6.140s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_mini_nav2 -- -j8 -l8
+[6.142s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_mini_nav2
+[6.154s] -- Install configuration: ""
+[6.154s] -- Execute custom install script
+[6.154s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/launch/localization_launch.py
+[6.169s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/launch/localization_only_launch.xml
+[6.194s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/launch/nav2_view.launch.xml
+[6.208s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/params/amcl_params.yaml
+[6.223s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/floor5_test1.yaml
+[6.237s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/floor5_test1.pgm
+[6.251s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/floor5_test2.yaml
+[6.263s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/floor5_test2.pgm
+[6.279s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/ament_index/resource_index/package_run_dependencies/scout_mini_nav2
+[6.292s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/ament_index/resource_index/parent_prefix_path/scout_mini_nav2
+[6.311s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/environment/ament_prefix_path.sh
+[6.322s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/environment/ament_prefix_path.dsv
+[6.335s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/environment/path.sh
+[6.368s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/environment/path.dsv
+[6.382s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/local_setup.bash
+[6.396s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/local_setup.sh
+[6.410s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/local_setup.zsh
+[6.424s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/local_setup.dsv
+[6.435s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.dsv
+[6.445s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/ament_index/resource_index/packages/scout_mini_nav2
+[6.457s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/cmake/scout_mini_nav2Config.cmake
+[6.468s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/cmake/scout_mini_nav2Config-version.cmake
+[6.482s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_mini_nav2/share/scout_mini_nav2/package.xml
+[6.545s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_mini_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/min/Workspace/scout_mini/install/scout_mini_tools:/home/min/Workspace/scout_mini/install/robot_following:/home/min/Workspace/scout_mini/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_mini_nav2

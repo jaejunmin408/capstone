@@ -1,0 +1,153 @@
+[0.078s] Invoking command in '/home/min/Workspace/scout_mini/build/ugv_sdk': /usr/bin/cmake /home/min/Workspace/scout_mini/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/ugv_sdk
+[2.673s] -- The C compiler identification is GNU 11.4.0
+[3.536s] -- The CXX compiler identification is GNU 11.4.0
+[3.594s] -- Detecting C compiler ABI info
+[3.899s] -- Detecting C compiler ABI info - done
+[3.925s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.925s] -- Detecting C compile features
+[3.932s] -- Detecting C compile features - done
+[4.047s] -- Detecting CXX compiler ABI info
+[4.263s] -- Detecting CXX compiler ABI info - done
+[4.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.278s] -- Detecting CXX compile features
+[4.278s] -- Detecting CXX compile features - done
+[4.297s] -- Build package with cmake
+[4.298s] -- Setting build type to 'Release' as none was specified.
+[4.298s] -- Tests will not be built
+[4.376s] -- Looking for pthread.h
+[4.962s] -- Looking for pthread.h - found
+[4.962s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.096s] -- Found Threads: TRUE  
+[5.099s] -- Project will be installed to /home/min/Workspace/scout_mini/install/ugv_sdk with 'make install'
+[5.099s] --  - To install LIB components to /home/min/Workspace/scout_mini/install/ugv_sdk/lib
+[5.100s] --  - To install BIN components to /home/min/Workspace/scout_mini/install/ugv_sdk/bin
+[5.100s] --  - To install INCLUDE components to /home/min/Workspace/scout_mini/install/ugv_sdk/include
+[5.100s] --  - To install CMAKE components to /home/min/Workspace/scout_mini/install/ugv_sdk/share/cmake/ugv_sdk
+[5.150s] -- Configuring done
+[5.182s] -- Generating done
+[5.184s] [33mCMake Warning:
+[5.184s]   Manually-specified variables were not used by the project:
+[5.184s] 
+[5.184s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[5.184s]     CATKIN_SYMLINK_INSTALL
+[5.184s] 
+[5.184s] [0m
+[5.189s] -- Build files have been written to: /home/min/Workspace/scout_mini/build/ugv_sdk
+[5.202s] Invoked command in '/home/min/Workspace/scout_mini/build/ugv_sdk' returned '0': /usr/bin/cmake /home/min/Workspace/scout_mini/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/ugv_sdk
+[5.205s] Invoking command in '/home/min/Workspace/scout_mini/build/ugv_sdk': /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/ugv_sdk -- -j8 -l8
+[5.546s] [  6%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[5.547s] [  6%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[5.548s] [ 13%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[5.549s] [ 13%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[5.550s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[5.552s] [ 20%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[5.553s] [ 24%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[5.554s] [ 27%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[11.613s] [ 31%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/tracer_robot.cpp.o[0m
+[11.823s] [ 34%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[13.213s] [ 37%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[13.353s] [ 41%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[21.016s] [ 44%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[23.343s] [ 44%] Built target ugv_sdk
+[23.425s] [ 48%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[23.427s] [ 51%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[23.449s] [ 55%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[23.449s] [ 58%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[24.879s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[24.879s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:37:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.880s]    37 |   [01;35m[Ktracer->Connect(device_name)[m[K;
+[24.880s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[24.880s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:38:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.880s]    38 |   [01;35m[Ktracer->EnableCommandedMode()[m[K;
+[24.880s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[24.880s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:42:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.880s]    42 |   [01;35m[Ktracer->SetLightCommand(CONST_OFF, 0)[m[K;
+[24.881s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[24.881s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:45:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.881s]    45 |   [01;35m[Ktracer->SetLightCommand(CONST_ON, 0)[m[K;
+[24.881s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[24.881s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:48:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.881s]    48 |   [01;35m[Ktracer->SetLightCommand(BREATH, 0)[m[K;
+[24.881s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[24.882s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:51:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.882s]    51 |   [01;35m[Ktracer->SetLightCommand(CUSTOM, 30)[m[K;
+[24.882s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[24.882s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:55:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.882s]    55 |   [01;35m[Ktracer->SetLightCommand(CONST_OFF, 0)[m[K;
+[24.882s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[24.882s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:61:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.895s]    61 |     [01;35m[Ktracer->SetMotionCommand(1.0, 0.0)[m[K;
+[24.895s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[24.895s] [01m[K/home/min/Workspace/scout_mini/src/ugv_sdk/sample/tracer_demo/tracer_robot_demo.cpp:64:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+[24.895s]    64 |     auto state = [01;35m[Ktracer->GetRobotState()[m[K;
+[24.895s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[25.006s] [ 62%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[25.187s] [ 62%] Built target demo_tracer_robot
+[25.259s] [ 65%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[25.264s] [ 68%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[25.309s] [ 72%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[26.946s] [ 75%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[27.408s] [ 75%] Built target demo_scout_mini_omni_robot
+[29.464s] [ 79%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[29.464s] [ 82%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[29.638s] [ 86%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[29.681s] [ 86%] Built target demo_ranger_robot
+[29.717s] [ 86%] Built target demo_scout_robot
+[29.811s] [ 89%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[29.882s] [ 89%] Built target demo_robot_version
+[29.901s] [ 93%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[30.024s] [ 93%] Built target demo_hunter_robot
+[30.107s] [ 93%] Built target demo_protocol_detector
+[30.140s] [ 96%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[30.811s] [100%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[30.989s] [100%] Built target demo_bunker_robot
+[31.064s] Invoked command in '/home/min/Workspace/scout_mini/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/ugv_sdk -- -j8 -l8
+[31.068s] Invoking command in '/home/min/Workspace/scout_mini/build/ugv_sdk': /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/ugv_sdk
+[31.079s] -- Install configuration: "Release"
+[31.080s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/libugv_sdk.a
+[31.082s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk
+[31.082s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[31.083s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[31.083s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[31.083s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[31.083s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[31.083s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[31.083s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[31.083s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details
+[31.084s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface
+[31.084s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[31.084s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[31.084s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[31.084s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[31.084s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[31.085s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[31.085s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[31.085s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[31.085s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[31.085s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[31.086s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[31.086s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[31.086s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[31.086s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[31.086s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[31.086s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[31.087s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[31.087s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[31.087s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[31.087s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[31.087s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[31.087s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[31.088s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[31.088s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[31.088s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port
+[31.088s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[31.088s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[31.088s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[31.089s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/utilities
+[31.089s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[31.089s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[31.089s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[31.089s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[31.090s] -- Installing: /home/min/Workspace/scout_mini/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[31.094s] Invoked command in '/home/min/Workspace/scout_mini/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/ugv_sdk

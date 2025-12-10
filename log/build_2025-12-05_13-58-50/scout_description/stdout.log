@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/min/Workspace/scout_mini/build/scout_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/display_mini.launch.py
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/scout_base_description.launch.py
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/scout_mini_gazebo.launch.py
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/sm_base_description.launch.py
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/sm_gazebo.launch.py
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/empty.urdf
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/mini.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini.gazebo
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini.urdf
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel.gazebo
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_1.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_2.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_3.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_4.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm.gazebo
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm1.gazebo
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm1.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm2.gazebo
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm2.xacro
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/1_Link.STL
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/2_Link.STL
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/3_Link.STL
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/4_Link.STL
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/scout_mini_base_link.STL
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/scout_mini_base_link.dae
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/scout_mini_base_link2.dae
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/sm_base_link.dae
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/sm_wheel.dae
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/wheel.dae
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/wheel_type1.dae
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/wheel_type2.dae
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/ament_index/resource_index/package_run_dependencies/scout_description
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/ament_index/resource_index/parent_prefix_path/scout_description
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/path.sh
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/path.dsv
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.bash
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.sh
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.zsh
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.dsv
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.dsv
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/ament_index/resource_index/packages/scout_description
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/cmake/scout_descriptionConfig.cmake
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/cmake/scout_descriptionConfig-version.cmake
+-- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.xml

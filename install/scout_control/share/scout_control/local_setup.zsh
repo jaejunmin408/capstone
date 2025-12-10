@@ -1,1 +1,0 @@
-/home/min/Workspace/scout_mini/build/scout_control/ament_cmake_environment_hooks/local_setup.zsh

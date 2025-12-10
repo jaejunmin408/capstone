@@ -1,6 +1,10 @@
+/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/frames_2025-11-30_03.32.33.gv
+/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/frames_2025-11-30_03.32.33.pdf
 /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini.launch.py
 /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_empty_world.launch.py
 /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_multi_spawn.launch.py
+/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_robot1_world.launch.py
+/home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_robot2_world.launch.py
 /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/launch/scout_mini_spawn.launch.py
 /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/worlds/clearpath_playpen.world
 /home/min/Workspace/scout_mini/install/scout_gazebo_sim/share/scout_gazebo_sim/worlds/weston_robot_empty.world

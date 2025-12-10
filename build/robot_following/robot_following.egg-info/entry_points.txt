@@ -1,0 +1,3 @@
+[console_scripts]
+tf_path_follower = robot_following.tf_path_follower:main
+

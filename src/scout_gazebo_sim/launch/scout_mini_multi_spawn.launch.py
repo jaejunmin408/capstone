@@ -33,8 +33,8 @@ def generate_launch_description():
   #spawn_y_val = '0.0'
   #spawn_z_val = '0.0'
   #spawn_yaw_val = '0.00'
-  spawn_x_vals = ['3.0', '0.0']   # robot1 at x=0.0, robot2 at x=2.0
-  spawn_y_vals = ['3.0', '0.0']
+  spawn_x_vals = ['0.0', '3.0']   # robot1 at x=0.0, robot2 at x=2.0
+  spawn_y_vals = ['0.0', '0.0']
   spawn_z_vals = ['0.0', '0.0']
   spawn_yaw_vals = ['0.0', '0.0']
 

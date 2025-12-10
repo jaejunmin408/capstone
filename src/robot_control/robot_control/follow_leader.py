@@ -11,11 +11,11 @@ class FollowLeader(Node):
         super().__init__('follow_leader')
 
         # Publisher: robot1 cmd_vel
-        self.cmd_pub = self.create_publisher(Twist, '/robot1/cmd_vel', 10)
+        self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
 
         # Subscribers
-        self.create_subscription(Odometry, '/robot2/odom', self.leader_callback, 10)
-        self.create_subscription(Odometry, '/robot1/odom', self.follower_callback, 10)
+        self.create_subscription(Odometry, '/leader/odom', self.leader_callback, 10)
+        self.create_subscription(Odometry, '/odom', self.follower_callback, 10)
 
         self.leader_pose = None
         self.follower_pose = None
@@ -24,8 +24,8 @@ class FollowLeader(Node):
 
         # Target parameters
         self.target_distance = 2.0     # 유지 거리
-        self.max_speed = 1.5           # 속도 제한
-        self.max_angular = 2.0         # 회전 제한
+        self.max_speed = 0.4           # 속도 제한
+        self.max_angular = 1.0         # 회전 제한
 
         # -----------------------------
         # PID parameters (distance PID)

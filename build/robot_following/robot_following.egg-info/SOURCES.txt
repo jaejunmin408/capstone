@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_following
+robot_following/__init__.py
+robot_following/tf_path_follower.py
+robot_following.egg-info/PKG-INFO
+robot_following.egg-info/SOURCES.txt
+robot_following.egg-info/dependency_links.txt
+robot_following.egg-info/entry_points.txt
+robot_following.egg-info/requires.txt
+robot_following.egg-info/top_level.txt
+robot_following.egg-info/zip-safe
