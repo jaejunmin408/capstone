@@ -1,0 +1,25 @@
+[1.382s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_mini_tools': PYTHONPATH=/home/min/Workspace/scout_mini/build/scout_mini_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/scout_mini_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/scout_mini_tools/build --no-deps symlink_data
+[1.845s] running develop
+[2.089s] running egg_info
+[2.089s] creating scout_mini_tools.egg-info
+[2.089s] writing scout_mini_tools.egg-info/PKG-INFO
+[2.089s] writing dependency_links to scout_mini_tools.egg-info/dependency_links.txt
+[2.090s] writing entry points to scout_mini_tools.egg-info/entry_points.txt
+[2.090s] writing requirements to scout_mini_tools.egg-info/requires.txt
+[2.090s] writing top-level names to scout_mini_tools.egg-info/top_level.txt
+[2.090s] writing manifest file 'scout_mini_tools.egg-info/SOURCES.txt'
+[2.093s] reading manifest file 'scout_mini_tools.egg-info/SOURCES.txt'
+[2.094s] writing manifest file 'scout_mini_tools.egg-info/SOURCES.txt'
+[2.096s] running build_ext
+[2.096s] Creating /home/min/Workspace/scout_mini/install/scout_mini_tools/lib/python3.10/site-packages/scout-mini-tools.egg-link (link to .)
+[2.097s] Installing path_follower script to /home/min/Workspace/scout_mini/install/scout_mini_tools/lib/scout_mini_tools
+[2.097s] Installing waypoint_recorder script to /home/min/Workspace/scout_mini/install/scout_mini_tools/lib/scout_mini_tools
+[2.098s] 
+[2.098s] Installed /home/min/Workspace/scout_mini/build/scout_mini_tools
+[2.098s] running symlink_data
+[2.098s] creating /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index
+[2.098s] creating /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index/resource_index
+[2.098s] creating /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index/resource_index/packages
+[2.098s] symbolically linking /home/min/Workspace/scout_mini/build/scout_mini_tools/resource/scout_mini_tools -> /home/min/Workspace/scout_mini/install/scout_mini_tools/share/ament_index/resource_index/packages
+[2.098s] symbolically linking /home/min/Workspace/scout_mini/build/scout_mini_tools/package.xml -> /home/min/Workspace/scout_mini/install/scout_mini_tools/share/scout_mini_tools
+[2.134s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_mini_tools' returned '0': PYTHONPATH=/home/min/Workspace/scout_mini/build/scout_mini_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/scout_mini_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/scout_mini_tools/build --no-deps symlink_data

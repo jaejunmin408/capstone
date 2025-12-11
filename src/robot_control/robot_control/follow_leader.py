@@ -14,8 +14,8 @@ class FollowLeader(Node):
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
 
         # Subscribers
-        self.create_subscription(Odometry, '/leader/odom', self.leader_callback, 10)
-        self.create_subscription(Odometry, '/odom', self.follower_callback, 10)
+        self.create_subscription(Odometry, '/robot2/odom', self.leader_callback, 10)
+        self.create_subscription(Odometry, '/robot1/odom', self.follower_callback, 10)
 
         self.leader_pose = None
         self.follower_pose = None

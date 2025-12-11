@@ -1,0 +1,75 @@
+[2.569s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/scout_ros2/scout_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/scout_description
+[14.153s] -- The C compiler identification is GNU 11.4.0
+[17.955s] -- The CXX compiler identification is GNU 11.4.0
+[18.004s] -- Detecting C compiler ABI info
+[19.271s] -- Detecting C compiler ABI info - done
+[19.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[19.309s] -- Detecting C compile features
+[19.349s] -- Detecting C compile features - done
+[19.558s] -- Detecting CXX compiler ABI info
+[20.568s] -- Detecting CXX compiler ABI info - done
+[20.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[20.577s] -- Detecting CXX compile features
+[20.577s] -- Detecting CXX compile features - done
+[21.405s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[22.556s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[23.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[24.934s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.554s] -- Configuring done
+[25.562s] -- Generating done
+[25.566s] -- Build files have been written to: /home/min/Workspace/scout_mini/build/scout_description
+[25.667s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/min/Workspace/scout_mini/src/scout_ros2/scout_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/min/Workspace/scout_mini/install/scout_description
+[25.672s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_description -- -j8 -l8
+[26.490s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/min/Workspace/scout_mini/build/scout_description -- -j8 -l8
+[26.492s] Invoking command in '/home/min/Workspace/scout_mini/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_description
+[26.501s] -- Install configuration: ""
+[26.501s] -- Execute custom install script
+[26.556s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/display_mini.launch.py
+[26.565s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/scout_base_description.launch.py
+[26.574s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/scout_mini_gazebo.launch.py
+[26.583s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/sm_base_description.launch.py
+[26.593s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//launch/sm_gazebo.launch.py
+[26.689s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/empty.urdf
+[26.699s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/mini.xacro
+[26.711s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini.gazebo
+[26.721s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini.urdf
+[26.731s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini.xacro
+[26.741s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel.gazebo
+[26.751s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_1.xacro
+[26.761s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_2.xacro
+[26.772s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_3.xacro
+[26.782s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/scout_mini_wheel_4.xacro
+[26.792s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm.gazebo
+[26.801s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm.xacro
+[26.811s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm1.gazebo
+[26.822s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm1.xacro
+[26.832s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm2.gazebo
+[26.844s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//urdf/sm2.xacro
+[26.941s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/1_Link.STL
+[26.954s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/2_Link.STL
+[26.965s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/3_Link.STL
+[26.975s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/4_Link.STL
+[26.985s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/scout_mini_base_link.STL
+[26.995s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/scout_mini_base_link.dae
+[27.005s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/scout_mini_base_link2.dae
+[27.019s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/sm_base_link.dae
+[27.025s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/sm_wheel.dae
+[27.041s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/wheel.dae
+[27.049s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/wheel_type1.dae
+[27.060s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description//meshes/wheel_type2.dae
+[27.071s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/ament_index/resource_index/package_run_dependencies/scout_description
+[27.083s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/ament_index/resource_index/parent_prefix_path/scout_description
+[27.093s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/ament_prefix_path.sh
+[27.109s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/ament_prefix_path.dsv
+[27.117s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/path.sh
+[27.126s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/environment/path.dsv
+[27.136s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.bash
+[27.145s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.sh
+[27.154s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.zsh
+[27.164s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/local_setup.dsv
+[27.173s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.dsv
+[27.187s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/ament_index/resource_index/packages/scout_description
+[27.198s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/cmake/scout_descriptionConfig.cmake
+[27.211s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/cmake/scout_descriptionConfig-version.cmake
+[27.221s] -- Symlinking: /home/min/Workspace/scout_mini/install/scout_description/share/scout_description/package.xml
+[27.235s] Invoked command in '/home/min/Workspace/scout_mini/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/min/Workspace/scout_mini/build/scout_description

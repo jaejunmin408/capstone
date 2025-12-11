@@ -1,0 +1,24 @@
+[16.086s] Invoking command in '/home/min/Workspace/scout_mini/build/robot_following': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_following/build --no-deps symlink_data
+[24.881s] running develop
+[24.881s] running egg_info
+[24.881s] creating robot_following.egg-info
+[24.881s] writing robot_following.egg-info/PKG-INFO
+[24.882s] writing dependency_links to robot_following.egg-info/dependency_links.txt
+[24.882s] writing entry points to robot_following.egg-info/entry_points.txt
+[24.882s] writing requirements to robot_following.egg-info/requires.txt
+[24.882s] writing top-level names to robot_following.egg-info/top_level.txt
+[24.882s] writing manifest file 'robot_following.egg-info/SOURCES.txt'
+[24.882s] reading manifest file 'robot_following.egg-info/SOURCES.txt'
+[24.882s] writing manifest file 'robot_following.egg-info/SOURCES.txt'
+[24.883s] running build_ext
+[24.883s] Creating /home/min/Workspace/scout_mini/install/robot_following/lib/python3.10/site-packages/robot-following.egg-link (link to .)
+[24.883s] Installing tf_path_follower script to /home/min/Workspace/scout_mini/install/robot_following/lib/robot_following
+[24.883s] 
+[24.883s] Installed /home/min/Workspace/scout_mini/build/robot_following
+[24.883s] running symlink_data
+[24.883s] creating /home/min/Workspace/scout_mini/install/robot_following/share/ament_index
+[24.883s] creating /home/min/Workspace/scout_mini/install/robot_following/share/ament_index/resource_index
+[24.883s] creating /home/min/Workspace/scout_mini/install/robot_following/share/ament_index/resource_index/packages
+[24.885s] symbolically linking /home/min/Workspace/scout_mini/build/robot_following/resource/robot_following -> /home/min/Workspace/scout_mini/install/robot_following/share/ament_index/resource_index/packages
+[24.885s] symbolically linking /home/min/Workspace/scout_mini/build/robot_following/package.xml -> /home/min/Workspace/scout_mini/install/robot_following/share/robot_following
+[24.890s] Invoked command in '/home/min/Workspace/scout_mini/build/robot_following' returned '0': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_following/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+[16.182s] Invoking command in '/home/min/Workspace/scout_mini/build/robot_control': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_control/build --no-deps symlink_data
+[24.979s] running develop
+[24.979s] running egg_info
+[24.979s] creating robot_control.egg-info
+[24.979s] writing robot_control.egg-info/PKG-INFO
+[24.979s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[24.979s] writing entry points to robot_control.egg-info/entry_points.txt
+[24.979s] writing requirements to robot_control.egg-info/requires.txt
+[24.980s] writing top-level names to robot_control.egg-info/top_level.txt
+[24.980s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[24.980s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[24.980s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[24.980s] running build_ext
+[24.980s] Creating /home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages/robot-control.egg-link (link to .)
+[24.980s] Installing follow_leader script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[24.980s] Installing follower script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[24.980s] Installing move_leader_robot script to /home/min/Workspace/scout_mini/install/robot_control/lib/robot_control
+[24.981s] 
+[24.981s] Installed /home/min/Workspace/scout_mini/build/robot_control
+[24.981s] running symlink_data
+[24.981s] creating /home/min/Workspace/scout_mini/install/robot_control/share/ament_index
+[24.981s] creating /home/min/Workspace/scout_mini/install/robot_control/share/ament_index/resource_index
+[24.981s] creating /home/min/Workspace/scout_mini/install/robot_control/share/ament_index/resource_index/packages
+[24.981s] symbolically linking /home/min/Workspace/scout_mini/build/robot_control/resource/robot_control -> /home/min/Workspace/scout_mini/install/robot_control/share/ament_index/resource_index/packages
+[24.981s] symbolically linking /home/min/Workspace/scout_mini/build/robot_control/package.xml -> /home/min/Workspace/scout_mini/install/robot_control/share/robot_control
+[25.739s] Invoked command in '/home/min/Workspace/scout_mini/build/robot_control' returned '0': PYTHONPATH=/home/min/Workspace/scout_mini/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/Workspace/scout_mini/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/Workspace/scout_mini/build/robot_control/build --no-deps symlink_data
